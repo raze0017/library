@@ -1,0 +1,74 @@
+.library{
+    font-size: 84px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 239, 98);
+    font-weight: 600;
+}
+.welcome{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    height: 750px;
+    background-color: rgb(93, 93, 93,0.5);
+    background-image: url(1305890.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: green;
+    font-weight:1000;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(173, 235, 235);
+    border-radius: 20px;
+    border: 5px solid green;
+    color: green;
+    font-weight:1000;
+}
+.but{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(173, 235, 235);
+    border-radius: 20px;
+    border: 5px solid green;
+    color: green;
+    font-weight:1000;
+
+}
+button:active {
+    background-color: darkslategrey;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.add{
+    padding: 100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 3px solid green;
+    border-radius: 50px;
+    color: green;
+    font-weight: 600;
+    background-color:rgb(173, 235, 235);
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+form{
+    display: flex;  
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: red;
+}
