@@ -3,6 +3,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(17, 239, 98);
     font-weight: 600;
+    background-color: none;
 }
 .welcome{
     display: flex;
@@ -14,8 +15,8 @@ html{
     background-repeat: no-repeat;
 }
 body{
-    height: 750px;
-    background-color: none;
+    height: auto;
+    background: none;
     color: green;
     font-weight:1000;
     border: 2px solid green;
@@ -84,19 +85,6 @@ input{
     align-items: flex-start;
     gap: 10px;
 }
-.card{
-    width: 150px;
-    height: 150px;
-    border: 3px solid green;
-    border-radius: 50px;
-    color: green;
-    font-weight: 600;
-    background-color:rgb(173, 235, 235);
-    margin-left: 450px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    flex-basis: 33.33%;
-}
 
 .added{
     display: flex;
@@ -128,13 +116,13 @@ input{
   }
   
   .card {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 120px;
     border: 3px solid green;
-    border-radius: 50px;
+    border-radius: 10px;
     color: green;
     font-weight: 600;
-    background-color: rgb(173, 235, 235);
+    background-color: rgb(129, 234, 234);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
   }
